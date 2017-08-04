@@ -15,7 +15,7 @@ $packageArgs = @{
 
   softwareName  = 'docker-toolbox*'
 
-  checksum      = 'F81F859F68989007F1DA0204F170A9C98FD7B65A7C2DB40398739D7C8DEC29E8'
+  checksum      = '56EAF211F66B30C18DE616D8BD710E377D153C65A340DEAAE791E10A61727B51'
   checksumType  = 'sha256'
 
   silentArgs    = "/COMPONENTS=`"docker,dockermachine,dockercompose`" /TASKS=`"modifypath,upgradevm`" /silent /norestart /log=`"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).log`""
